@@ -1,0 +1,16 @@
+let Zahl=50; // Zahl bis zu der gezählt wird
+for(let counter=0;counter <= Zahl; counter++ ) //for Schleife mit Counter
+{
+    
+    if(counter%3 === 0 ) // counter Modulo 3 auf 0 vergleichen 
+    {
+        if(counter%5 === 0 ) // counter Modulo 5 auf 0 vergleichen 
+            {console.log("FizzBuzz");} // durch 5 und 3 teilbar
+        else
+            {console.log("Fizz");}; // nur durch 3 teilbar
+    }
+    else if(counter%5 === 0 )
+        {console.log("Buzz");}// nur durch 5 teilbar
+    else
+        {console.log(counter);} // durch nichts teilbar
+}
